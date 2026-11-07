@@ -22,16 +22,20 @@
     "url": "https://github.com/sdsheeks/pi-egm/issues"
   },
   "files": [
+    "third_party",
     "extensions",
     "egm",
     "scripts",
-    "NOTICE",
     "README.md",
     "LICENSE"
   ],
   "pi": {
-    "extensions": ["./extensions/egm.ts"],
-    "skills": ["./egm/skills"]
+    "extensions": [
+      "./extensions/egm.ts"
+    ],
+    "skills": [
+      "./egm/skills"
+    ]
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*",

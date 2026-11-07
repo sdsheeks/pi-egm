@@ -22,9 +22,10 @@ runs. The upstream logo and brand assets are not used here.
 Delegation mechanics in extensions/egm.ts (spawning one `pi --mode json`
 process per reviewer, parsing JSON session events, and abort handling) follow
 the `subagent` example shipped with @earendil-works/pi-coding-agent, which is
-MIT licensed:
+MIT licensed. The full MIT text and copyright notice are in
+third_party/pi-coding-agent-LICENSE:
 
     pi-coding-agent
     https://github.com/earendil-works/pi
-    Copyright the pi-coding-agent authors (Mario Zechner)
+    Copyright (c) 2025 Mario Zechner
     Licensed under the MIT License
