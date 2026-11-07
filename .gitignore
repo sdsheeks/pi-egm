@@ -1,4 +1,48 @@
+# Dependencies
 node_modules/
+.pnp/
+.pnp.js
+
+# Local EGM artifacts (briefs, drafts, review reports) written to the cwd
 .dev/
-.DS_Store
+concepts_brief.md
+design_draft.md
+review_report.md
+
+# Secrets and local environment: never commit these
+.env
+.env.*
+!.env.example
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+auth.json
+id_rsa
+id_ed25519
+*.secret
+.secrets/
+credentials.json
+
+# Pi local state
+.pi/
+.pic/
+
+# Python tooling (upstream repo uses pytest; contributors may run it here)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging, logs, OS and editor noise
+*.tgz
 *.log
+npm-debug.log*
+.DS_Store
+.idea/
+.vscode/
+*.swp
