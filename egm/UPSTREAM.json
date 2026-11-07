@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/google/elephant-goldfish-model",
+  "ref": "main",
+  "commit": "e9e1f06aa4e26e95cd4ed37210a0632202c429e9",
+  "syncedAt": "2026-11-07T16:17:40Z",
+  "note": "Files under egm/ are unmodified copies of the upstream plugin. Do not edit them here; run scripts/sync-upstream.sh instead."
+}

@@ -1,0 +1,30 @@
+pi-egm
+Copyright 2026 pi-egm contributors
+
+This product bundles the Elephant-Goldfish Model plugin, unmodified, under
+egm/:
+
+    Elephant-Goldfish Model
+    https://github.com/google/elephant-goldfish-model
+    Copyright Google
+    Licensed under the Apache License, Version 2.0 (see egm/LICENSE)
+
+The pinned upstream commit is recorded in egm/UPSTREAM.json. Files under egm/
+are copied verbatim by scripts/sync-upstream.sh; nothing in that directory is
+modified by this project.
+
+The Elephant-Goldfish Model is not an officially supported Google product.
+This project is an independent pi adapter. It is not affiliated with,
+sponsored by, or endorsed by Google. The names "Elephant-Goldfish Model" and
+"EGM" are used descriptively to identify the upstream workflow this adapter
+runs. The upstream logo and brand assets are not used here.
+
+Delegation mechanics in extensions/egm.ts (spawning one `pi --mode json`
+process per reviewer, parsing JSON session events, and abort handling) follow
+the `subagent` example shipped with @earendil-works/pi-coding-agent, which is
+MIT licensed:
+
+    pi-coding-agent
+    https://github.com/earendil-works/pi
+    Copyright the pi-coding-agent authors (Mario Zechner)
+    Licensed under the MIT License

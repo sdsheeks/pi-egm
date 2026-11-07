@@ -1,0 +1,40 @@
+{
+  "name": "pi-egm",
+  "version": "0.1.0",
+  "description": "Elephant-Goldfish Model (EGM) design and review workflow for pi, with fresh-context Goldfish reviewers.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "egm",
+    "elephant-goldfish",
+    "design-review",
+    "skills",
+    "subagents"
+  ],
+  "homepage": "https://github.com/sdsheeks/pi-egm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdsheeks/pi-egm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sdsheeks/pi-egm/issues"
+  },
+  "files": [
+    "extensions",
+    "egm",
+    "scripts",
+    "NOTICE",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": ["./extensions/egm.ts"],
+    "skills": ["./egm/skills"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  }
+}
