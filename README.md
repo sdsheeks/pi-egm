@@ -153,3 +153,14 @@ pi update --extensions
 Apache-2.0. The vendored Elephant-Goldfish Model is Apache-2.0, Copyright Google, and copied
 unmodified; see `egm/LICENSE` and `NOTICE`. Delegation mechanics follow the `subagent` example
 shipped with `@earendil-works/pi-coding-agent` (MIT).
+
+## Publish
+
+```sh
+git remote add origin git@github.com:sdsheeks/pi-egm.git
+git push -u origin main
+```
+
+The repo is installable as soon as it is public; `package.json` carries the `pi-package` keyword and
+the `pi` manifest, so the same source works from npm (`pi install npm:pi-egm`) if you publish there.
+If you fork this under another account, replace `sdsheeks/pi-egm` in `package.json` and above.
